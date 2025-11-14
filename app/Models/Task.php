@@ -15,4 +15,8 @@ class Task extends Model {
         "is_completed",
     ];
 
+    protected $casts = [
+        "is_completed" => "boolean", 
+    ];
+
 }
